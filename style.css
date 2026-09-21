@@ -515,3 +515,129 @@ footer p {
         display: block;
     }
 }
+/* FINAL MOBILE FIX */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        position: static !important;
+        width: 100%;
+        height: auto !important;
+    }
+
+    .navbar {
+        position: static !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px 10px;
+        gap: 10px;
+        height: auto !important;
+    }
+
+    .logo {
+        position: static !important;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo img {
+        position: static !important;
+        width: 180px;
+        height: auto;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .nav-links {
+        display: none !important;
+    }
+
+    /* HERO */
+    .hero {
+        position: static !important;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: auto !important;
+        padding: 30px 20px 50px;
+        box-sizing: border-box;
+        gap: 35px;
+        overflow: visible !important;
+    }
+
+    .hero-text {
+        position: static !important;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .small-title {
+        margin: 0 0 18px;
+        font-size: 17px;
+    }
+
+    .hero h1 {
+        position: static !important;
+        font-size: 50px;
+        line-height: 1;
+        margin: 0 0 25px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 0 0 20px;
+    }
+
+    .hero-text > p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    /* BUTTONS */
+    .buttons {
+        position: static !important;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+        margin: 25px 0 0;
+    }
+
+    .btn {
+        position: static !important;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    /* PHOTO CARD */
+    .hero-card {
+        position: static !important;
+        width: 90%;
+        max-width: 400px;
+        height: auto !important;
+        margin: 10px auto 0;
+        transform: rotate(-2deg);
+        box-sizing: border-box;
+    }
+
+    .hero-card img {
+        position: static !important;
+        width: 100%;
+        height: auto !important;
+        max-height: none !important;
+        object-fit: cover;
+        display: block;
+    }
+
+    .hero-card p {
+        position: static !important;
+        margin: 10px 0;
+    }
+}
